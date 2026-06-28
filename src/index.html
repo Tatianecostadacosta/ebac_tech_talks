@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EBAC Tech Talks</title>
+    <title>Aniversário da Tatiane</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -11,93 +11,78 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 <body>
-     <header class="hero">
+    <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="images/ebac_logo.svg" alt="EBAC">
-            <P class="hero__text">
-                O maior evento de tecnologia do Brasil começa em <span id="contador"></span>
-            </P>
+            <p class="hero__text">
+                Meu aniversário de 44 anos começa em <span id="contador"></span>
+            </p>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
                         <b>Localização</b>
-                        Allianz Parque - Barra Funda - São Paulo
+                        São Gonçalo - RJ
                     </li>
                     <li class="infos-bar__infos__item">
-                        <b>Preço</b>
-                        A partir de R$ 120,00
+                        <b>Dress Code</b>
+                        Traje esporte fino
                     </li>
                     <li class="infos-bar__infos__item">
                         <b>Quando</b>
-                        12/12/2022 às 19hrs
+                        28/07/2026 às 19hrs
                     </li>
                 </ul>
                 <a href="#" class="button button--primary">
-                    Garanta sua vaga
+                    Confirmar Convite
                 </a>
             </div>
+        </div>
+    </header>
+
+    <section class="event event--comemoracao">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre a comemoração</h2>
+                <p class="event__details__description">
+                    Será uma noite especial para celebrar meus 44 anos
+                    ao lado de familiares e amigos queridos.
+                </p>
             </div>
-     </header>
-
-     <section class="event event--frontend">
-    <div class="container" data-aos="fade-right">
-        <div class="event__details">
-            <h2 class="event__details__title">Front-end</h2>
-            <p class="event__details__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quod commodi culpa officiis, placeat laborum quam ipsam qui molestias exercitationem laudantium voluptatum fuga nulla corrupti expedita atque repellat delectus modi?
-            </p>
+            <div>
+                <img class="event__image" src="./images/comemoracao.jpg" alt="comemoração">
+            </div>
         </div>
+    </section>
 
-        <div>
-            <img class="event__image" src="./images/frontend.png" alt="Front-end">
+    <section class="event event--programacao-da-festa event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Programação da festa</h2>
+                <p class="event__details__description">
+                    19h - Recepção dos convidados<br>
+                    20h - Jantar especial<br>
+                    21h - Bolo e parabéns
+                </p>
+            </div>
+            <div>
+                <img class="event__image" src="./images/bolo.jpg" alt="bolo">
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-        <section class="event event--ui-ux event--image-left">
-    <div class="container" data-aos="fade-left">
-        <div class="event__details">
-            <h2 class="event__details__title">UI/UX</h2>
-            <p class="event__details__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quod commodi culpa officiis, placeat laborum quam ipsam qui molestias exercitationem laudantium voluptatum fuga nulla corrupti expedita atque repellat delectus modi?
-            </p>
+    <section class="event event--bolo">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Uma data especial</h2>
+                <p class="event__details__description">
+                    Cada ano é uma nova oportunidade de agradecer,
+                    celebrar e recomeçar.
+                </p>
+            </div>
+            <div>
+                <img class="event__image" src="./images/decoracao.jpg" alt="decoração">
+            </div>
         </div>
-
-        <div>
-            <img class="event__image" src="./images/ui-ux.png" alt="UI/UX">
-        </div>
-    </div>
-</section>
-
-<section class="event event--data-science">
-    <div class="container" data-aos="fade-right">
-        <div class="event__details">
-            <h2 class="event__details__title"><Data-science></h2>
-            <p class="event__details__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quod commodi culpa officiis, placeat laborum quam ipsam qui molestias exercitationem laudantium voluptatum fuga nulla corrupti expedita atque repellat delectus modi?
-            </p>
-        </div>
-
-        <div>
-            <img class="event__image" src="./images/data.png" alt="Data-science">
-        </div>
-    </div>
-</section>
-
-<section class="event event--backend event--image-left">
-    <div class="container" data-aos="fade-left">
-        <div class="event__details">
-            <h2 class="event__details__title">Back-end</h2>
-            <p class="event__details__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quod commodi culpa officiis, placeat laborum quam ipsam qui molestias exercitationem laudantium voluptatum fuga nulla corrupti expedita atque repellat delectus modi?
-            </p>
-        </div>
-
-        <div>
-            <img class="event__image" src="./images/backend.png" alt="Back-end">
-        </div>
-    </div>
-</section>
+    </section>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>

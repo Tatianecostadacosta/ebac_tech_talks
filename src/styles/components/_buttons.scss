@@ -10,16 +10,11 @@
 
     &--primary {
         color: #fff;
-        background-color: variables.$pouple;
+        background-color: variables.$purple;
     }
 
     @media (max-width: 640px) {
         display: block;
         width: 100%;
-        }
-
-        @media (max-width: 1024px) {
-            display: flex;
-            align-items: center;
     }
 }
